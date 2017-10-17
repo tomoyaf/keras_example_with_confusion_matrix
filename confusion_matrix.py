@@ -27,7 +27,8 @@ def plot_confusion_matrix(y_true, y_pred, title = "Confusion matrix",
 
     plt.ylabel('True label', fontsize=30)
     plt.xlabel('Predicted label', fontsize=30)
-    plt.show()
 
     if save_flg:
         plt.savefig("./confusion_matrix.png")
+
+    plt.show()
